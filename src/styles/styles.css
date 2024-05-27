@@ -1,0 +1,16 @@
+::root {
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: monospace;
+	font-size: 10px;
+	color: #ddd3ca;
+}
+
+body {
+	margin: 0;
+}
