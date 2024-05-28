@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   homePage: () => (/* binding */ homePage)\n/* harmony export */ });\n/*  <div class=\"home\">\n        <h1>Restaurant Page</h1>\n        <p>Pasta la vista baby, pasta la vista...</p>\n    </div> */\n\nvar homePage = document.createElement('div');\nhomePage.classList.add('home');\nhomePage.innerHTML = \"<h1>Restaurant Page</h1>\\n<p>Pasta la vista baby, past la vista...</p>\\n\";\n\n\n//# sourceURL=webpack://my-webpack-project/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   homePage: () => (/* binding */ homePage)\n/* harmony export */ });\n/*  <div class=\"home\">\n        <h1>Restaurant Page</h1>\n        <p>Pasta la vista baby, pasta la vista...</p>\n    </div> */\n\nvar homePage = document.createElement('div');\nhomePage.classList.add('home');\nhomePage.innerHTML = \"<h1>Restaurant Page</h1>\\n<p>Pasta la vista baby, pasta la vista...</p>\\n\";\n\n\n//# sourceURL=webpack://my-webpack-project/./src/home.js?");
 
 /***/ }),
 
