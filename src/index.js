@@ -15,8 +15,7 @@ const menuBtn = document.querySelector('#menu-btn');
 const aboutBtn = document.querySelector('#about-btn');
 const content = document.querySelector('#content');
 
-//content.appendChild(homePage);
-//content.appendChild(aboutPage);
+content.appendChild(homePage);
 
 homeBtn.addEventListener('click', () => {
     addActiveClass(homeBtn);
@@ -28,6 +27,13 @@ menuBtn.addEventListener('click', () => {
     addActiveClass(menuBtn);
     content.innerText = '';
     content.appendChild(menuPage);
+});
+
+aboutBtn.addEventListener('click', () => {
+    console.log('about');
+    addActiveClass(aboutBtn);
+    content.innerText = '';
+    content.appendChild(aboutPage);
 });
 
 
