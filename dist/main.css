@@ -1,0 +1,202 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/styles.css ***!
+  \*************************************************************************/
+::root {
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: monospace;
+	font-size: 10px;
+	color: #ddd3ca;
+}
+
+body {
+	margin: 0;
+}
+
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/header.css ***!
+  \*************************************************************************/
+header {
+	height: 10vh;
+	background-color: #48382b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header button {
+	font-size: 2rem;
+	/* font-weight: bold; */
+	width: 12rem;
+	height: 10vh;
+	color: #9E8675;
+	background-color: transparent;
+	border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header button:hover {
+	background-color: #564335;
+}
+
+.active {
+    border-bottom: 4px solid#9E8675;
+}
+
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/footer.css ***!
+  \*************************************************************************/
+footer {
+    height: 10vh;
+    background-color: #534232;
+    color: #9E8675;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/home.css ***!
+  \***********************************************************************/
+.home {
+	height: 80vh;
+	background-image: linear-gradient(
+			rgba(72, 56, 43, 0.45),
+			rgba(72, 56, 43, 0.45)
+		),
+		url(1eb2558cad7b04bce42c.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+.home h1 {
+	font-size: 10rem;
+	margin: 15vh 0 0;
+}
+
+.home p {
+	color: #ddd3ca;
+	font-size: 3rem;
+}
+
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/menu.css ***!
+  \***********************************************************************/
+.menu {
+	background-color: rgb(208, 193, 178);
+	background-image: linear-gradient(
+			rgba(208, 193, 178, 0.9),
+			rgba(208, 193, 178, 0.9)
+		),
+		url(1eb2558cad7b04bce42c.jpg);
+	background-size: cover;
+	padding: 1rem;
+	color: #48382b;
+}
+
+.menu h2 {
+	text-align: center;
+	font-size: 4rem;
+}
+
+.menu-list {
+	width: 800px;
+	margin: auto;
+}
+
+.dish {
+	display: grid;
+	grid-template-rows: 1.5fr 1fr;
+	grid-template-columns: 5fr 1fr;
+	margin-bottom: 3rem;
+	border-bottom: 2px dotted #48382b;
+	padding-bottom: 1rem;
+}
+
+.dish-title {
+	font-size: 2.5rem;
+	grid-area: 1 / 1;
+}
+
+.dish-region {
+	font-size: 2.5rem;
+	grid-area: 1 / 2;
+	justify-self: end;
+}
+
+.dish-description {
+	font-size: 1.5rem;
+	font-style: italic;
+	grid-area: 2 / 1;
+}
+
+.dish-price {
+	font-size: 2rem;
+	grid-area: 2 / 2;
+	font-weight: bold;
+	justify-self: end;
+}
+
+.dish-price::before {
+	content: '$';
+}
+
+.dish-price::after {
+	content: '.00';
+}
+
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/about.css ***!
+  \************************************************************************/
+.about {
+	background-color: rgb(208, 193, 178);
+	background-image: linear-gradient(
+			rgba(208, 193, 178, 0.9),
+			rgba(208, 193, 178, 0.9)
+		),
+		url(1eb2558cad7b04bce42c.jpg);
+	background-size: cover;
+	padding: 1rem;
+	color: #48382b;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    height: 60vh;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+.contact h2 {
+    font-size: 4rem;
+}
+
+.contact p {
+    font-size: 2rem;
+}
+
