@@ -1,5 +1,6 @@
 import { pastas } from './pastas.js';
 import { homePage } from './home.js';
+import { menuPage } from './menu.js';
 
 require('./styles/styles.css');
 require('./styles/header.css');
@@ -16,7 +17,19 @@ const content = document.querySelector('#content');
 content.appendChild(homePage);
 
 homeBtn.addEventListener('click', () => {
-    console.log('home');
+    addActiveClass(homeBtn);
     content.innerText = '';
     content.appendChild(homePage);
 });
+
+menuBtn.addEventListener('click', () => {
+    addActiveClass(menuBtn);
+    content.innerText = '';
+    content.appendChild(menuPage);
+});
+
+
+function addActiveClass(btn) {
+    document.querySelectorAll('header button').forEach(btn => btn.classList.remove('active'));
+    btn.classList.add('active');
+}
