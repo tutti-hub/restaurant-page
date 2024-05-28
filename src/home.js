@@ -7,7 +7,7 @@
 const homePage = document.createElement('div');
 homePage.classList.add('home');
 homePage.innerHTML = `<h1>Restaurant Page</h1>
-<p>Pasta la vista baby, past la vista...</p>
+<p>Pasta la vista baby, pasta la vista...</p>
 `;
 
 export { homePage };
