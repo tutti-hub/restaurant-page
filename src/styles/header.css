@@ -4,20 +4,23 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	column-gap: 2rem;
 }
 
 header button {
 	font-size: 2rem;
 	/* font-weight: bold; */
-	width: 10rem;
-	height: 8rem;
-	margin: 0 2rem;
-	color: white;
+	width: 12rem;
+	height: 10vh;
+	color: #9E8675;
 	background-color: transparent;
 	border: none;
+    text-transform: uppercase;
 }
 
 header button:hover {
 	background-color: #564335;
+}
+
+.active {
+    border-bottom: 4px solid #9E8675;
 }
